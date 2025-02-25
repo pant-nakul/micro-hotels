@@ -13,7 +13,7 @@ import java.util.List;
 public class StaffController {
 
 
-    @GetMapping("/")
+    @GetMapping
     public ResponseEntity<List<String>> getAllStaffs(){
         return ResponseEntity.ok().body(Arrays.asList("Ram","Krishna","ParshuRam","Shiva"));
     }
